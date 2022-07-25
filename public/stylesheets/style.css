@@ -3,6 +3,30 @@ body {
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
+#index {
+  background: url("../images/drone.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  display: flex;
+  font: 60px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.pintro {
+  display: flex;
+  font: 40px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbutton {
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
 ul{
   display: flex;
   justify-content: flex-start;
@@ -35,6 +59,7 @@ min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: flex-start;
+
 }
 
 .create{
